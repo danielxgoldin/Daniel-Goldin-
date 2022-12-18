@@ -15,6 +15,7 @@ export const Projects = () => {
       description:
         "TacoApp is an application that uses Google maps API to show you all the tacos closest to your location anywhere in the world. Currently, the Google maps API is down when you visit the page as Google charges per click or search and we are not currently paying for it as we were when we created it.",
       imgUrl: projImg1,
+      
     },
     {
       title: "ATXPokerClub",
@@ -28,18 +29,18 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Weather Finder",
+      description: "This is a simple weather finder I created. It uses weather API to show the user a weather forcast after they input their location.",
       imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "ATXPokerClub",
+      description: "This was a website I created for a client. Mostly built with HTML, JAVASCRIPT, and CSS.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Team Profile Generator",
+      description: "This is an application I built that will generate teams for companies!",
       imgUrl: projImg3,
     },
   ];
@@ -56,8 +57,8 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Projects</h2>
-                  <p>Welcome to my Projects section!</p>
+                  <h2>Please, click the pictures below to view!</h2>
+                  <p></p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
