@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -14,22 +15,22 @@ export const Projects = () => {
       description:
         "TacoApp is an application that uses Google maps API to show you all the tacos closest to your location anywhere in the world. Currently, the Google maps API is down when you visit the page as Google charges per click or search and we are not currently paying for it as we were when we created it.",
       imgUrl: projImg1,
-      
     },
     {
       title: "ATXPokerClub",
-      description: "This was a website I created for a client. Mostly built with HTML, JAVASCRIPT, and CSS.",
+      description:
+        "This was a website I created for a client. Mostly built with HTML, JAVASCRIPT, and CSS.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Team Profile Generator",
+      description: "This is an application I built that will generate teams for companies!",
       imgUrl: projImg3,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
       title: "Business Startup",
@@ -88,8 +89,7 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <div>
-                         <p>Click Below!</p>
-                          {" "}
+                          <p>Click Below!</p>{" "}
                           <a
                             href="https://www.linkedin.com/in/daniel-g-044b21238/overlay/1635508011101/single-media-viewer/"
                             target="_blank"
