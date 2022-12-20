@@ -16,6 +16,7 @@ export const Projects = () => {
         "TacoApp is an application that uses Google maps API to show you all the tacos closest to your location anywhere in the world. Currently, the Google maps API is down when you visit the page as Google charges per click or search and we are not currently paying for it as we were when we created it.",
       imgUrl: projImg1,
       
+      
     },
     {
       title: "ATXPokerClub",
@@ -32,6 +33,7 @@ export const Projects = () => {
       title: "Weather Finder",
       description: "This is a simple weather finder I created. It uses weather API to show the user a weather forcast after they input their location.",
       imgUrl: projImg4,
+
     },
     {
       title: "ATXPokerClub",
@@ -42,6 +44,7 @@ export const Projects = () => {
       title: "Team Profile Generator",
       description: "This is an application I built that will generate teams for companies!",
       imgUrl: projImg3,
+      
     },
   ];
 
